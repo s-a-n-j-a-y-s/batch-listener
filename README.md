@@ -53,5 +53,7 @@ Manual or batch acknowledgment ensures offsets are committed only after successf
 ## ⚙️Testing
 You can test with a local Kafka instance using kafka-console-producer:
 
-```bin/kafka-console-producer.sh   --bootstrap-server <kafka_broker_host>   --topic batch-listener-topic   --property "parse.key=true"   --property "key.separator=:"```
+```
+bin/kafka-console-producer.sh   --bootstrap-server <kafka_broker_host>   --topic batch-listener-topic   --property "parse.key=true"   --property "key.separator=:"
+```
 
