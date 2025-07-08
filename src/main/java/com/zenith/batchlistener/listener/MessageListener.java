@@ -77,7 +77,6 @@ public class MessageListener {
         return () -> {
             try {
                 this.processRecord(record);
-                throw new RuntimeException("Test error thrown");
             } catch (Exception e) {
                 throw new BatchProcessingException(e.getMessage(), e, record);
             }
