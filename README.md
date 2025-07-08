@@ -57,3 +57,8 @@ You can test with a local Kafka instance using kafka-console-producer:
 bin/kafka-console-producer.sh   --bootstrap-server <kafka_broker_host>   --topic batch-listener-topic   --property "parse.key=true"   --property "key.separator=:"
 ```
 
+## Related Resources
+
+For more information on the problem and use case, check out this blog:  
+[Boosting kafka consumer throughput](https://dev.to/sanjay_kumar_senthilvel/boosting-kafka-throughput-with-spring-kafka-batch-listener-and-async-processing-39bi)
+
